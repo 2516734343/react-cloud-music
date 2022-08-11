@@ -19,6 +19,7 @@ export default [
       },
       {
         path: "/recommend",
+        exact: true,
         component: Recommend,
       },
       {

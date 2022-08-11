@@ -7,9 +7,8 @@ export const NavContainer = styled.div`
   top: 95px;
   width: 100%;
   padding: 5px;
-  overflow: hidden;
+  overflow: auto;
 `;
-
 
 export const ListContainer = styled.div`
   position: fixed;
@@ -41,15 +40,22 @@ export const ListItem = styled.div`
   border-bottom: 1px solid ${style["border-color"]};
   .img_wrapper {
     margin-right: 20px;
-    img {
+    img{
       border-radius: 3px;
       width: 50px;
       height: 50px;
     }
   }
-  .name {
+  .name{
     font-size: ${style["font-size-m"]};
     color: ${style["font-color-desc"]};
     font-weight: 500;
   }
 `;
+export const EnterLoading = styled.div`
+  position: fixed;
+  left: 0; right: 0; top: 0; bottom: 0;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+`

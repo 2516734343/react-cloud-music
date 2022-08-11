@@ -2,7 +2,6 @@
 import * as actionTypes from './constants';
 
 import { fromJS } from 'immutable';
-
 const defaultState = fromJS({
   bannerList: [],
   recommendList: [],
@@ -21,5 +20,3 @@ export default (state = defaultState, action) => {
     default: return state;
   }
 }
-
-
