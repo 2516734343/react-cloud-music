@@ -24,7 +24,7 @@ export const getBannerList = () => {
       dispatch(action);
     }).catch(() => {
       console.log("轮播图数据传输错误");
-    })
+    }) 
   }
 };
 export const getRecommendList = () => {
